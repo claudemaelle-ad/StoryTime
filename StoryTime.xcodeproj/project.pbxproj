@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		9FC865203099460E00E36072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC864DA30993D3D00E36072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC864E130993D3D00E36072;
+			remoteInfo = StoryTime;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		9FC864E230993D3D00E36072 /* StoryTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC8651C3099460E00E36072 /* StoryTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = StoryTime;
 			sourceTree = "<group>";
 		};
+		9FC8651D3099460E00E36072 /* StoryTimeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StoryTimeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9FC864DF30993D3D00E36072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC865193099460E00E36072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				9FC864E430993D3D00E36072 /* StoryTime */,
+				9FC8651D3099460E00E36072 /* StoryTimeTests */,
 				9FC864E330993D3D00E36072 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				9FC864E230993D3D00E36072 /* StoryTime.app */,
+				9FC8651C3099460E00E36072 /* StoryTimeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 9FC864E230993D3D00E36072 /* StoryTime.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9FC8651B3099460E00E36072 /* StoryTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC865223099460E00E36072 /* Build configuration list for PBXNativeTarget "StoryTimeTests" */;
+			buildPhases = (
+				9FC865183099460E00E36072 /* Sources */,
+				9FC865193099460E00E36072 /* Frameworks */,
+				9FC8651A3099460E00E36072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC865213099460E00E36072 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9FC8651D3099460E00E36072 /* StoryTimeTests */,
+			);
+			name = StoryTimeTests;
+			packageProductDependencies = (
+			);
+			productName = StoryTimeTests;
+			productReference = 9FC8651C3099460E00E36072 /* StoryTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					9FC864E130993D3D00E36072 = {
 						CreatedOnToolsVersion = 26.6;
+					};
+					9FC8651B3099460E00E36072 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 9FC864E130993D3D00E36072;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				9FC864E130993D3D00E36072 /* StoryTime */,
+				9FC8651B3099460E00E36072 /* StoryTimeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9FC864E030993D3D00E36072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC8651A3099460E00E36072 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FC865183099460E00E36072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC865213099460E00E36072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC864E130993D3D00E36072 /* StoryTime */;
+			targetProxy = 9FC865203099460E00E36072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9FC864EB30993D3F00E36072 /* Debug */ = {
@@ -261,6 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,6 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +384,48 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FC865233099460E00E36072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23T9NQ32RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maelleagondjodondia.StoryTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StoryTime";
+			};
+			name = Debug;
+		};
+		9FC865243099460E00E36072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23T9NQ32RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maelleagondjodondia.StoryTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StoryTime";
 			};
 			name = Release;
 		};
@@ -327,6 +446,15 @@
 			buildConfigurations = (
 				9FC864EE30993D3F00E36072 /* Debug */,
 				9FC864EF30993D3F00E36072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC865223099460E00E36072 /* Build configuration list for PBXNativeTarget "StoryTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC865233099460E00E36072 /* Debug */,
+				9FC865243099460E00E36072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

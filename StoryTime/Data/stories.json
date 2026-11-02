@@ -1,0 +1,66 @@
+[
+  {
+    "id": "le-petit-renard",
+    "title": "Le petit renard curieux",
+    "summary": "Filou le renardeau entend un drôle de bruit et part explorer la forêt.",
+    "ageRange": "3-5 ans",
+    "category": "animaux",
+    "coverSymbol": "pawprint.fill",
+    "theme": "orange",
+    "pages": [
+      { "id": 1, "text": "Au fond de la forêt vivait un petit renard au pelage roux. Il s'appelait Filou, et il était très, très curieux.", "symbol": "tree.fill" },
+      { "id": 2, "text": "Un matin, Filou entendit un drôle de bruit : « Ploc ! Ploc ! Ploc ! » D'où pouvait-il bien venir ?", "symbol": "ear.fill" },
+      { "id": 3, "text": "Il suivit le bruit jusqu'à la rivière. Là, une petite grenouille sautait de nénuphar en nénuphar.", "symbol": "drop.fill" },
+      { "id": 4, "text": "« Veux-tu jouer avec moi ? » demanda Filou. La grenouille éclata de rire : « Ploc ! Bien sûr ! »", "symbol": "heart.fill" },
+      { "id": 5, "text": "Ils jouèrent tout l'après-midi. Le soir venu, Filou rentra dans son terrier, la tête pleine de souvenirs. Fin.", "symbol": "moon.stars.fill" }
+    ]
+  },
+  {
+    "id": "lila-et-les-etoiles",
+    "title": "Lila la tortue et les étoiles",
+    "summary": "Une petite tortue rêve de toucher les étoiles. Elle va trouver un moyen bien à elle.",
+    "ageRange": "4-6 ans",
+    "category": "magie",
+    "coverSymbol": "moon.stars.fill",
+    "theme": "purple",
+    "pages": [
+      { "id": 1, "text": "Chaque soir, Lila la tortue levait la tête vers le ciel. « Comme j'aimerais toucher les étoiles ! » soupirait-elle.", "symbol": "tortoise.fill" },
+      { "id": 2, "text": "« Tu es bien trop lente et bien trop petite », se moquait le hibou. Mais Lila ne se découragea pas.", "symbol": "bird.fill" },
+      { "id": 3, "text": "Pas à pas, elle grimpa tout en haut de la colline. Cela lui prit toute la nuit.", "symbol": "mountain.2.fill" },
+      { "id": 4, "text": "Arrivée au sommet, elle découvrit un petit lac. Des milliers d'étoiles brillaient à sa surface.", "symbol": "sparkles" },
+      { "id": 5, "text": "Lila tendit doucement la patte… et toucha une étoile. Elle sourit, puis s'endormit, heureuse. Fin.", "symbol": "star.fill" }
+    ]
+  },
+  {
+    "id": "le-bateau-de-papier",
+    "title": "Le voyage du bateau de papier",
+    "summary": "Un jour de pluie, Tom fabrique un bateau qui part à l'aventure dans le caniveau.",
+    "ageRange": "5-7 ans",
+    "category": "aventure",
+    "coverSymbol": "sailboat.fill",
+    "theme": "blue",
+    "pages": [
+      { "id": 1, "text": "Il pleuvait depuis le matin. Tom s'ennuyait à la fenêtre, quand il eut une idée.", "symbol": "cloud.rain.fill" },
+      { "id": 2, "text": "Il plia une feuille, encore et encore, jusqu'à obtenir un magnifique bateau de papier.", "symbol": null },
+      { "id": 3, "text": "Il le posa dans le ruisseau du caniveau. Le bateau fila, tourna, plongea dans les vagues !", "symbol": "water.waves" },
+      { "id": 4, "text": "Un poisson rouge, échappé d'une flaque, nagea à ses côtés pour l'escorter.", "symbol": "fish.fill" },
+      { "id": 5, "text": "Puis la pluie cessa, et un arc-en-ciel apparut. Le bateau s'arrêta juste devant la maison de Tom. Fin.", "symbol": "rainbow" }
+    ]
+  },
+  {
+    "id": "le-jardin-de-mamie-rose",
+    "title": "Le jardin secret de Mamie Rose",
+    "summary": "Chez sa grand-mère, Nina découvre que les plantes ont besoin de patience et d'amour.",
+    "ageRange": "3-5 ans",
+    "category": "nature",
+    "coverSymbol": "leaf.fill",
+    "theme": "green",
+    "pages": [
+      { "id": 1, "text": "Pendant les vacances, Nina allait chez Mamie Rose. Derrière la maison se cachait un jardin plein de surprises.", "symbol": "house.fill" },
+      { "id": 2, "text": "Mamie Rose lui donna une petite graine. « Plante-la, et prends-en soin chaque jour. »", "symbol": "hand.raised.fill" },
+      { "id": 3, "text": "Nina l'arrosa le matin et lui chanta des chansons le soir. Une coccinelle venait souvent écouter.", "symbol": "ladybug.fill" },
+      { "id": 4, "text": "Un matin de soleil, une petite pousse verte sortit enfin de la terre !", "symbol": "sun.max.fill" },
+      { "id": 5, "text": "Quelques semaines plus tard, une grande fleur s'ouvrit. « C'est la fleur de Nina », dit Mamie Rose. Fin.", "symbol": "camera.macro" }
+    ]
+  }
+]

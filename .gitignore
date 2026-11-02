@@ -1,0 +1,8 @@
+# Xcode : données propres à chaque utilisateur
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# macOS
+.DS_Store
