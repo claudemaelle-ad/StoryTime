@@ -3,7 +3,10 @@
 Prototype d'application iOS d'histoires pour enfants, en **Swift** et **SwiftUI**.
 L'enfant parcourt une bibliothèque d'histoires, puis les lit page par page, avec une lecture à voix haute.
 
-<!-- Démo : glisser ici une vidéo ou un GIF enregistré depuis le simulateur (File → Record Screen) -->
+▶️ **[Voir la vidéo de démonstration](https://drive.google.com/file/d/1UbQjxweShjY6MN0RRvZmIRbKY9fjmYba/view?usp=share_link)**
+
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-11-03 at 15 10 28" src="https://github.com/user-attachments/assets/b2b4aafc-6068-40da-af76-1a52c696a061" />
+
 
 ## Fonctionnalités
 
